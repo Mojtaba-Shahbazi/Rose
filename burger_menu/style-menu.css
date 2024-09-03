@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+@font-face {
+    font-family: "Cromlin-DEMO-Light";
+    src:
+            local("Cromlin-DEMO-Light"),
+            url("../font/Cromlin-DEMO-Light.woff") format("woff");
+}
+@font-face {
+    font-family: "Cromlin-DEMO-Bold";
+    src:
+            local("Cromlin-DEMO-Bold"),
+            url("../font/Cromlin-DEMO-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "Cromlin-DEMO";
+    src:
+            local("Cromlin-DEMO"),
+            url("../font/Cromlin-DEMO.woff") format("woff");
+}
+@font-face {
+    font-family: "Cromlin-DEMO-SemiBold";
+    src:
+            local("Cromlin-DEMO-SemiBold"),
+            url("../font/Cromlin-DEMO-SemiBold.woff") format("woff");
+}
+a , a:visited{
+    text-decoration: none;
+    /*color: #012B55;*/
+}
+/*for the close button*/
+.close {
+    width: 35px;
+    height: 35px;
+    background: white;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+}
+/*box of all of links*/
+.links-container {
+    width: auto;
+    height: 900px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.link-siz {
+    width: 100%;
+    height: 40px;
+}
+.font {
+    font-family: 'Cromlin-DEMO-Light' ,sans-serif;
+    color: #012B55;
+    font-size: 2rem;
+}
+/*for work and contact*/
+.font--bold {
+    font-family: 'Cromlin-DEMO-Bold' ,sans-serif;
+    color: #012B55;
+    font-size: 2rem;
+}
+/*the fixed bottom icons*/
+.line {
+    width: 100%;
+    height: auto;
+    border-top: #cbcbcb 0.5px solid;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+/*Align of icons */
+.icons {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 5%;
+}
+/*size of each icons*/
+.img-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:0 10px 0 10px ;
+}
+.img-container:hover {
+    filter: contrast(80%);
+}
